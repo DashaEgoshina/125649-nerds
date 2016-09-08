@@ -1,98 +1,170 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
     <link href="css/normalize.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
+</head>
+<body>
 <header class="main-header">
-  <div class="container clearfix">
-    <span href="#" class="button-logo">
-      <img src="#" width="#" height="#" alt="nerds">
-    </span>
-    <div class="header-nav">
-      <ul>
-        <li><a href="#">студия</a></li>
-        <li><a href="#">клиенты</a></li>
-        <li><a href="#">магазин</a></li>
-        <li><a href="#">контакты</a></li>
-        <li><a class="cart" href="#">корзина</a></li>
-      </ul>
+    <div class="container clearfix">
+    <a href="#" class="button-logo">
+      <img src="img/logo.png" width="139" height="56" alt="nerds">
+    </a>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="#">студия</a></li>
+                <li><a href="#">клиенты</a></li>
+                <li><a href="#">магазин</a></li>
+                <li><a href="#">контакты</a></li>
+            </ul>
+        </nav>
+        <div class="user-block">
+            <a class="cart" href="#">корзина</a>
+         </div>
     </div>
-  </div>
-  <div class="slider">
-    <input type="radio" id="btn-1" name="toggle" checked>
-    <input type="radio" id="btn-2" name="toggle">
-    <input type="radio" id="btn-3" name="toggle">
-    <div class="slider-arrows">
-      <label for="btn-1">    </label>
-      <label for="btn-2">    </label>
-      <label for="btn-3">    </label>
+    <div class="slider">
+        <input type="radio" id="btn-1" name="toggle" checked>
+        <input type="radio" id="btn-2" name="toggle">
+        <input type="radio" id="btn-3" name="toggle">
+        <div class="slider-controls">
+            <label for="btn-1"></label>
+            <label for="btn-2"></label>
+            <label for="btn-3"></label>
+        </div>
+        <div class="slides">
+            <div class="slide">
+                <div class="slide-info">
+                    <span class="slide-title">Долго, дорого, скрупулезно.</span>
+                    <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+                    <a class="button" href="#">узнать больше</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-info">
+                    <span class="slide-title">Любите ли вы математику, как любим ее мы?</span>
+                    <p>Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все
+                        просчитать</p>
+                    <a class="button" href="#">узнать больше</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-info">
+                    <span class="slide-title">Только наркотики, только хардкор!</span>
+                    <p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных
+                        галлюциногенов</p>
+                    <a class="button" href="#">узнать больше</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="slider-slides">
-      <div class="slide">
-        <img src="#" width="#" height="#" alt="gadget">
-        <div class="slide-info">
-          <span>Долго, дорого, скрупулезно.</span>
-          <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-          <a class="button" href="#">узнать больше</a>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="#" width="#" height="#" alt="calculator">
-        <div class="slide-info">
-          <span>Любите ли вы математику, как любим ее мы?</span>
-          <p>Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать</p>
-          <a class="button" href="#">узнать больше</a>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="#" width="#" height="#" alt="drugs">
-        <div class="slide-info">
-          <span>Только наркотики, только хардкор!</span>
-          <p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов</p>
-          <a class="button" href="#">узнать больше</a>
-        </div>
-      </div>
-    </div>
-  </div>
 </header>
 <main>
-  <div class="container">
-    <section class="items">
-      <article class="item">
-        <div class="item-image">
-          <img src="#" width="#" height="#" alt="websites">
+    <div class="container">
+        <section class="items">
+            <article class="item">
+                <div class="item-image">
+                    <img src="img/webcites.png" width="240" height="124" alt="websites">
+                </div>
+                <h2 class="item-title">веб-сайты</h2>
+                <p class="item-description">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+                <a href=# class="button-1">заказать</a>
+            </article>
+            <article class="item">
+                <div class="item-image">
+                    <img src="img/apps.png" width="240" height="124" alt="applications">
+                </div>
+                <h2 class="item-title">приложения</h2>
+                <p class="item-description">Покорите топ-10 приложений в AppStrore и Google Play</p>
+                <a href=# class="button-2">заказать</a>
+            </article>
+            <article class="item">
+                <div class="item-image">
+                    <img src="img/presentation.png" width="240" height="124" alt="presentations">
+                </div>
+                <h2 class="item-title">презентации</h2>
+                <p class="item-description">Вы даже не подозреваете, насколько вы изумительны!</p>
+                <a href=# class="button-3">заказать</a>
+            </article>
+        </section>
+        <section class="info-nerds clearfix">
+            <div class="info-nerds-left">
+                <p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+                <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не
+                    покладая рук, как роботы.</p>
+                <span>Выполняем заказы на разработку:</span>
+                <ul>
+                    <li class="info-nerds-work">Веб-сайтов любой сложности</li>
+                    <li class="info-nerds-work">Мобильных приложений для iOS и Android</li>
+                    <li class="info-nerds-work">Слайдшоу и видео для корпоративных презентаций</li>
+                </ul>
+            </div>
+            <div class="info-nerds-right">
+        <span href="#" class="button-logo">
+          <img src="img/logomain.png" width="187" height="75" alt="nerds">
+        </span>
+                <span class="button-logo-bottom">since 2004</span>
+                <span>как мы работаем:</span>
+                <ul>
+                    <li class="info-nerds-work">С самоотдачей 146%</li>
+                    <li class="info-nerds-work">Соблюдая сроки на 100%</li>
+                    <li class="info-nerds-work">По предоплате 50%</li>
+                </ul>
+            </div>
+        </section>
+        <div class="works">
+            <a href="#"><img src="img/gluhkanko.png" width="198" height="37" alt="glukhanko"></a>
+            <a href="#"><img src="img/htmlacademy.png" width="199" height="68" alt="htmlacademy"></a>
+            <a href="#"><img src="img/barbershop.png" width="209" height="90" alt="bardershop"></a>
         </div>
-        <h2 class="item-title">веб-сайты</h2>
-        <p class="item-description">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-        <a class="button button-red">заказать</a>
-      </article>
-      <article class="item">
-        <div class="item-image">
-          <img src="#" width="#" height="#" alt="applications">
-        </div>
-        <h2 class="item-title">приложения</h2>
-        <p class="item-description">Покорите топ-10 приложений в AppStrore и Google Play</p>
-        <a class="button button-green">заказать</a>
-      </article>
-      <article class="item">
-        <div class="item-image">
-          <img src="#" width="#" height="#" alt="presentations">
-        </div>
-        <h2 class="item-title">презентации</h2>
-        <p class="item-description">Вы даже не подозреваете, насколько вы изумительны!</p>
-        <a class="button button-yellow">заказать</a>
-      </article>
-    </section>
-    <section class="info-nerds clearfix">
-
-    </section>
-
-  </div>
+    </div>
 </main>
+<footer class="main-footer">
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1923.8396070403846!2d30.320940669861244!3d59.938808915351174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1455883637571"
+                width="100%" height="450" style="border:0" allowfullscreen></iframe>
+        <div class="contacts">
+            <h2>nёrds design studio</h2>
+            <div class="address">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</div>
+            <div class="phone">тел. +7 (812) 275-75-75</div>
+            <a class="button modal" href="#">напишите нам</a>
+        </div>
+        <div class="point">
+            <img src="img/marker.png" width="231" height="190" alt="nerds">
+        </div>
+    </div>
+    <div class="container clearfix">
+        <div class="footer-social">
+            <a class="social-btn vk" href="#"></a>
+            <a class="social-btn facebook" href="#"></a>
+            <a class="social-btn instagramm" href="#"></a>
+        </div>
+        <div class="footer-friendly">
+            <p>Давайте дружить, это выгодно!</p>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+    </div>
+</footer>
 
-  </body>
+<div class="modal-content-index">
+    <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+    <form class="message" method="post" onsubmit="">
+            <div class="message-item">
+                <label for="name">Ваше имя:</label>
+                <input id="name" type="text" name="name" placeholder="Представьтесь, пожалуйста">
+            </div>
+            <div class="message-item">
+                <label for="email">Ваш e-mail: </label>
+                <input id="email" type="text" name="email" placeholder="Для отправки ответа">
+            </div>
+            <div class="message-text">
+                <label>Текст письма:</label>
+                <textarea name="text" placeholder="В свободной форме"></textarea>
+            </div>
+            <input type="submit" value="отправить">
+    </form>
+</div>
+<script src="js/modalindex.js"></script>
+</body>
 </html>

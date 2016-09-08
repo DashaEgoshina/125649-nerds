@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+    <link href="css/normalize.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header class="main-header">
+    <div class="container clearfix">
+    <span href="#" class="button-logo">
+      <img src="img/logo.png" width="139" height="56" alt="nerds">
+    </span>
+        <div class="header-nav">
+            <ul>
+                <li><a href="#">студия</a></li>
+                <li><a href="#">клиенты</a></li>
+                <li><a href="#">магазин</a></li>
+                <li><a href="#">контакты</a></li>
+                <li><a class="cart" href="#">корзина</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="welcome">
+        <h1>Добро пожаловать в магазин готовых макетов</h1>
+    </div>
+    </header>
+<main>
+    <div class="container">
+        <section class="container-left">
+            <div class="filter-header">
+                <h2>стоимость:</h2>
+            </div>
+            <div class="range-filter">
+                <div class="range-controls">
+                    <div class="scale">
+                        <div class="bar"></div>
+                    </div>
+                    <div class="toggle min-toggle"></div>
+                    <div class="toggle max-toggle"></div>
+                </div>
+                <div class="price-controls">
+                    <input class="min-price" type="text" value="0">
+                    <input class="max-price" type="text" value="15000">
+                </div>
+            </div>
+            <form class="filter-items">
+                <div class="filter-grid">
+                    <h2>сетка:</h2>
+                    <div class="filter-radio">
+                        <input type="radio" id="adaptive" name="grid" checked>
+                        <label for="adaptive">Адаптивная</label>
+                    </div>
+                    <div class="filter-radio">
+                        <input type="radio" id="fix" name="grid">
+                        <label for="fix">Фиксированная</label>
+                    </div>
+                    <div class="filter-radio">
+                        <input type="radio" id="rubber" name="grid">
+                        <label for="rubber">Резиновая</label>
+                    </div>
+                </div>
+                <div class="filter-properties">
+                    <h2>особенности:</h2>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="slider" checked>
+                        <label for="slider">Слайдер</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="advantages">
+                        <label for="advantages">Блок приемуществ</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="news" checked>
+                        <label for="news">Новости</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="gallery">
+                        <label for="gallery">Галерея</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="cart">
+                        <label for="cart">Корзина</label>
+                    </div>
+                </div>
+                <a class="button submit" href="#">показать</a>
+            </form>
+        </section>
+        <section class="container-right">
+            <div class="sort-navigation">
+                <ul class="sort">
+                    <li><span>сортировать:</span></li>
+                    <li><a class="sort-price" href="#">по цене</a></li>
+                    <li><a class="sort-type" href="#">по типу</a></li>
+                    <li><a class="sort-function" href="#">по функционалу</a></li>
+                    <li><a class="controls" href="#"><span class="icon-down-dir active"></span></a></li>
+                    <li><a class="controls" href="#"><span class="icon-up-dir"></span></a></li>
+                </ul>
+            </div>
+
+
+            <div class="items">
+                <article class="item">
+                    <div class="actions">
+                        <a href="#" class="item-title">aviator</a>
+                        <p>Одностраничный макет с авторским дизайном</p>
+                        <div class="item-price">8000 Р.</div>
+                    </div>
+                    <div class="item-image">
+                        <img src="img/aviator.jpg" width="240" height="240" alt="aviator">
+                    </div>
+                </article>
+
+                <article class="item">
+                    <div class="actions">
+                        <a href="#" class="item-title">sunset</a>
+                        <p>Интернет-магазин с личным кабинетом</p>
+                        <div class="item-price">10000 Р.</div>
+                    </div>
+                    <div class="item-image">
+                        <img src="img/sunset.jpg" width="240" height="240" alt="sunset">
+                    </div>
+                </article>
+
+                <article class="item">
+                    <div class="actions">
+                        <a href="#" class="item-title">forte</a>
+                        <p>Отличный макет для личного блога</p>
+                        <div class="item-price">5000 Р.</div>
+                    </div>
+                    <div class="item-image">
+                        <img src="img/forte.jpg" width="240" height="240" alt="forte">
+                    </div>
+                </article>
+
+                <article class="item">
+                    <div class="actions">
+                        <a href="#" class="item-title">modern organic thai</a>
+                        <p>Сайт для ресторана быстрого питания</p>
+                        <div class="item-price">12000 Р.</div>
+                    </div>
+                    <div class="item-image">
+                        <img src="img/thai.jpg" width="240" height="240" alt="thai">
+                    </div>
+                </article>
+
+                <article class="item">
+                    <div class="actions">
+                        <a href="#" class="item-title">avenue</a>
+                        <p>Макет для блога о путешествиях</p>
+                        <div class="item-price">8000 Р.</div>
+                    </div>
+                    <div class="item-image">
+                        <img src="img/avenue.jpg" width="239" height="240" alt="avenue">
+                    </div>
+                </article>
+
+                <article class="item">
+                    <div class="actions">
+                        <a href="#" class="item-title">dovetail</a>
+                        <p>Интернет-магазин с галереей товаров</p>
+                        <div class="item-price">14000 Р.</div>
+                    </div>
+                    <div class="item-image">
+                        <img src="img/dovetail.jpg" width="239" height="240" alt="dovetail">
+                    </div>
+                </article>
+            </div>
+            <ul class="paginator">
+                <li class="paginator-item"><a class="active" href="#">1</a></li>
+                <li class="paginator-item"><a href="#">2</a></li>
+                <li class="paginator-item"><a href="#">3</a></li>
+                <li class="paginator-item paginator-item-next"><a href="#">следующая</a></li>
+            </ul>
+        </section>
+    </div>
+</main>
+<footer class="main-footer">
+    <div class="map">
+        <iframe></iframe>
+        <div class="contacts">
+            <h2>nёrds design studio</h2>
+            <div class="address">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</div>
+            <div class="phone">тел. +7 (812) 275-75-75</div>
+            <a class="button-1 modal" href="modal-form.html">напишите нам</a>
+        </div>
+        <div class="point">
+            <img src="img/marker.png" width="231" height="190" alt="nerds">
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer-social">
+            <a class="social-btn vk" href="#"></a>
+            <a class="social-btn facebook" href="#"></a>
+            <a class="social-btn instagramm" href="#"></a>
+        </div>
+        <div class="footer-friendly">
+            <p>Давайте дружить, это выгодно!</p>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html>
